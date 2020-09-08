@@ -1,0 +1,36 @@
+header {
+    margin-top: 24px;
+}
+
+header .navbar {
+    margin-left: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+}
+
+header .navbar a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+header .navbar #about{
+    align-items: center;
+}
+
+.content #identify #name {
+    margin-top: 50px;
+    font-size: 25px;
+    margin-bottom: 60px;
+}
+
+.content #frase {
+    font-size: 22px;
+    font-weight: lighter;
+    margin: 0 26%;
+    text-align: center;
+}
+
+.content #pict {
+    margin-top: 100px;
+}

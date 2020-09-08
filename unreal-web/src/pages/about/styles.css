@@ -1,0 +1,27 @@
+.content #title h1{
+    color: rgb(179, 175, 245);
+    font-size: 80px;
+}
+
+.content .about #textAbout #text{
+    text-align: center;
+    margin: 0 32% 0 32%;
+    font-size: 18px;
+}
+.content .about #textAbout #text #tucaraio {
+    color: rgb(44, 44, 63);
+}
+.content .about a{
+    color: rgb(134, 131, 189);
+    text-decoration: none;
+}
+
+.content .about #members a{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.content .about #members a p {
+    margin-left: 10px;
+}

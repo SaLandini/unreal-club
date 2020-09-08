@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/styles-upload.css') }}">
+    <link rel="icon"  href="../static/unreal.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap" 
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap" 
+    rel="stylesheet">
+    <meta charset="UTF-8">
+    <style>
+        html {
+            background-color: black;
+        }
+
+        .page-main {
+            margin-top: 48px;
+        }
+
+        .page-main .form{
+            font-family: "Inconsolata";
+            color: aliceblue;
+        }
+
+        .page-main .form form input {
+            font-family: "Inconsolata";
+        }
+
+        .page-main .form button {
+            background: url('../static/Unreal_Logo_White.png');
+            width: 100px;
+            height: 100px;
+            margin-top: 20px;
+            border: 0;
+        }
+        .page-main .form button:hover {
+            background: url('../static/Unreal_Logo_RGB.png');
+        }
+    </style>
+    <title>Unreal Upload</title>
+</head>
+<body>
+<div class="page-main" align="center">
+    <div class="form">
+        <p>Select a file</p>
+        <form action="">
+            <input name="image" type="file" />
+        </form>
+        <button type="submit">
+            
+        </button>
+    </div>
+</div>
+</body>
+</html>
