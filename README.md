@@ -1,7 +1,7 @@
 
 # Unreal Club Project
 
-[![GitHub license](https://img.shields.io/github/license/SaLandini/unreal-club-web)](https://github.com/SaLandini/unreal-club-web/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/SaLandini/unreal-club)](https://github.com/SaLandini/unreal-club/blob/master/LICENSE)
 
 This project is a way to publicize the work of the members of Unreal Club and the club.
 
@@ -15,6 +15,11 @@ You will first, need have python installed in your pc and install the requiremen
 
 ```pip
 pip install -r requirements.txt
+```
+
+After that you will need to create the database, for this, just enter in `SQL` folder and run the follwing code:
+```python
+python initdb.py
 ```
 
 Doing this, you will just run this code:
