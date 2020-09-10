@@ -46,6 +46,10 @@ yarn start
 
 ![about](assets/READMEabout.png)
 
+- upload:
+
+![upload](assets/READMEupload.png)
+
 > At this moments, just those pages are done
 
 ## author
