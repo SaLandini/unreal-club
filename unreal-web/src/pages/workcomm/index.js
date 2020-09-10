@@ -4,8 +4,7 @@ import './styles.css'
 
 const WorkCommu = () => {
     return(
-        <h1>Work Communit</h1>
+        <h1>Work Community</h1>
     )
 }
-
 export default WorkCommu

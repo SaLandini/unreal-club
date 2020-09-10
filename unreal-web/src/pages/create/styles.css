@@ -1,0 +1,30 @@
+html {
+    background-color: black;
+}
+
+.page-main {
+    margin-top: 68px;
+}
+
+.page-main .form{
+    font-family: "Inconsolata";
+    color: aliceblue;
+}
+.page-main .form form {
+    margin-top: 68px;
+}
+
+.page-main .form input {
+    font-family: "Inconsolata";
+}
+
+.page-main .form button {
+    background: url('../../assets/Unreal_Logo_White%20copy.png');
+    width: 100px;
+    height: 100px;
+    margin-top: 88px;
+    border: 0;
+}
+.page-main .form button:hover {
+    background: url('../../assets/Unreal_Logo_RGB%20copy.png');
+}

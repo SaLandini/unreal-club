@@ -33,4 +33,9 @@ header .navbar #about{
 
 .content #pict {
     margin-top: 100px;
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
 }

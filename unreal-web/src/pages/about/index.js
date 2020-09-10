@@ -62,7 +62,9 @@ const About = () => {
                     </div>
                 </div>
                 <div className="logo">
+                <a href="http://localhost:5000/create">
                     <img src={LogoWhite} width="100px" />
+                </a>
                 </div>
             </div>
         </body>
